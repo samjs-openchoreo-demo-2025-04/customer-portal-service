@@ -7,4 +7,4 @@ apis:
     schemaFile: docs/openapi.yaml
     visibility: 
       public: false
-      organization: false
+      organization: true
