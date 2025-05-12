@@ -1,0 +1,13 @@
+apiVersion: score.dev/v1b1
+metadata:
+  name: customer-portal-service
+  project: customer-portal
+  organization: customer-portal-service
+service:
+  ports:
+    default:
+      port: 8080
+      protocol: TCP
+containers:
+  container-one1:
+    image: .
